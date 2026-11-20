@@ -1,0 +1,24 @@
+<svg width="260" height="56" viewBox="0 0 260 56" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="InternBridge">
+  <defs>
+    <linearGradient id="ibBadge" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#4f46e5"/>
+      <stop offset="1" stop-color="#6366f1"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Badge -->
+  <rect x="4" y="8" width="40" height="40" rx="11" fill="url(#ibBadge)"/>
+
+  <!-- Bridge mark (white) -->
+  <g transform="translate(12, 16)" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M2 16h20"/>
+    <path d="M8 16V6"/>
+    <path d="M16 16V6"/>
+    <path d="M2 13Q5 6 8 6Q11 6 12 11Q13 6 16 6Q19 6 22 13"/>
+  </g>
+
+  <!-- Wordmark -->
+  <text x="58" y="36" font-family="'Segoe UI', system-ui, -apple-system, Arial, sans-serif" font-size="24" font-weight="700" letter-spacing="-0.5">
+    <tspan fill="#0f172a">Intern</tspan><tspan fill="#4f46e5">Bridge</tspan>
+  </text>
+</svg>
