@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120">
+  <rect width="120" height="120" fill="#050f9c"/>
+  <g fill="none" stroke="#a9d3e6" stroke-width="9" stroke-linejoin="miter">
+    <!-- primary diamond lattice (tiles seamlessly at edge midpoints) -->
+    <path d="M60 0 120 60 60 120 0 60Z"/>
+    <!-- inner diamond → woven / interlaced feel -->
+    <path d="M60 26 94 60 60 94 26 60Z"/>
+    <!-- corner links that join neighbouring tiles -->
+    <path d="M0 0 24 24M120 0 96 24M0 120 24 96M120 120 96 96"/>
+  </g>
+</svg>
